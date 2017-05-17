@@ -1,0 +1,539 @@
+@font-face {
+	font-family: playfairdisplayregular;
+	src: url('../fonts/PlayfairDisplay-Regular.ttf');
+}@font-face {
+	font-family: playfairdisplayitalic;
+	src: url('../fonts/PlayfairDisplay-Italic.ttf');
+}
+
+
+.logo {
+	width:140px;
+	height: 100px;
+}
+
+#header {
+	background: #C2B497;
+	overflow: hidden;
+}
+#slog {
+	color: #fff;
+	font-size: 16px;
+	margin-top: 10px;
+	font-family: playfairdisplayitalic;
+
+}
+.header-slog {
+	padding-left: 25px !important;
+	padding-right: 25px !important;
+}
+#social {
+	color: #fff;
+	font-size: 16px;
+	margin-top: -30px;
+	padding-right: 15px;
+}
+#social > a:link, #social > a:visited {
+	color: #fff;
+	transition: 0.4s ease-in-out;
+}
+#social > a:hover {
+	color: #000000;
+}
+#social > a> span {
+	padding: 0 10px;
+}
+#social > a> span:last-child {
+	padding: 0 0 0 10px;
+}
+
+#logo-img {
+	margin-top: -15px;
+	padding-left: 15px;
+}
+#showcase-heading {
+	padding-top: 80px;
+	padding-bottom: 10px;
+}
+#showcase-heading > h1 {
+	font-family: playfairdisplayregular;
+	color: #C2B497;
+	font-size: 5em;
+	margin-bottom: 10px;
+	margin-top: 30px;
+
+}
+#showcase-desc {
+	padding-bottom: 100px;
+	width: 700px;
+	font-size: 16px;
+	color: #000;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Paragraph1{
+	margin-bottom:10px;
+}
+.Paragraph2{
+	margin-bottom: 70px;
+}
+
+#brands {
+	padding-top: 100px;
+	padding-bottom: 20px;
+
+	
+}
+
+#brands-heading {
+	font-family: playfairdisplayregular;
+	color: #C2B497;
+	font-size: 2.5em;
+}
+
+.Wholesale{
+	text-align: right;
+}
+
+.P3{
+	text-align: right;
+}
+
+.retail{
+	text-align: left;
+}
+
+
+
+#brand-desc {
+	color: #000;
+	font-size: 16px;
+}
+
+
+#sells {
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+
+
+#sells-heading > h1 {
+	font-family: playfairdisplayregular;
+	color: #C2B497;
+	font-size: 4em;
+}
+#sells-desc {
+	color: #000000;
+	font-size: 16px;
+}
+#subscribe {
+	padding: 40px 0px 150px 0px;
+}
+#email {
+	width: 600px;
+	margin-right: 10px;
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+	box-shadow: none;
+	border-radius: 0;
+	font-family: playfairdisplayregular;
+	font-size: 16px;
+
+}
+#email::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+#email:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+#email::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+#email:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+#submit {
+	font-family: playfairdisplayregular;
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+	border-radius: 0;
+}
+
+#bottom {
+	background: #000000;
+	color: #fff;
+	font-size: 14px;
+	font-family: playfairdisplayregular;
+	padding: 4px 0;
+}
+
+.FooterText{
+	padding-top: 5px;
+}
+
+@media only screen 
+and (max-width: 320px) { 
+
+	.logo-col {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+   #social {
+   	font-size: 20px;
+   	margin-top: 0px;
+   	padding-top: 4px;
+   	text-align: center;
+   }
+
+   #showcase-heading {
+   	margin-top: -50px;
+   	padding-bottom: 0px;
+   }
+   #showcase-heading > h1 {
+   	font-family: playfairdisplayregular;
+   	color: #c1b496;
+	font-size: 1em;
+   	margin-bottom: 10px;
+	margin-top:30px;
+
+   }
+
+   #showcase-desc {
+   	padding-bottom: 40px;
+   	color: #2D2D2D;
+   	width:100%;
+   }
+
+   #brand-desc{
+   	margin-top: 30px;
+   }
+
+
+   .Paragraph1{
+	margin-bottom:60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+	.Paragraph2{
+	margin-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+   .Paragraph3{
+	text-align: left;
+	padding-top: 30px;
+}
+   .Paragraph4{
+	text-align:left;
+	padding:0px;
+	margin:0px;
+	
+}
+
+h1, #brands-heading {
+	font-size: 2em;
+	text-align: center;
+
+
+}
+
+   #sells {
+   	padding-top: 15px;
+   	padding-bottom: 15px;
+   }
+   #sells-heading {
+   	font-family: playfairdisplayregular;
+   	color: #c1b496;
+   }
+   #sells-heading > h1 {
+   	font-size: .6em;
+   }
+
+   #sells-desc > div > p{
+   	color: #2D2D2D;
+   	font-size: 12px;
+   	text-align: left;
+   }
+
+   #email {
+	width: 100%;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+	box-shadow: none;
+	border-radius: 0;
+	font-family: playfairdisplayregular;
+	font-size: 16px;
+	padding-right: 5px;
+	margin-top: 20px;
+}
+
+#subscribe{
+	margin-bottom: -40px;
+}
+
+#submit{
+	margin-top: 15px;
+}
+
+   #mob-view > .col-md-4 {
+   	padding: 0;
+   	text-align: center;
+   	font-size: 14px;
+   	border-top: 1px solid #fff;
+   }
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+	.logo-col {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+   #social {
+   	font-size: 20px;
+   	margin-top: 0px;
+   	padding-top: 4px;
+   	text-align: center;
+   }
+
+   #showcase-heading {
+   	margin-top: -50px;
+   	padding-bottom: 0px;
+   }
+   #showcase-heading > h1 {
+   	font-family: playfairdisplayregular;
+   	color: #c1b496;
+	font-size: 2.5em;
+   	margin-bottom: 20px;
+	margin-top:30px;
+
+   }
+
+   #showcase-desc {
+   	padding-bottom: 40px;
+   	color: #2D2D2D;
+   	width:100%;
+   }
+
+  
+ h1, #brands-heading {
+
+	text-align: center;
+}
+	.retail{
+		text-align: center;
+		margin-top: 30px;
+	}
+
+
+
+
+   .Paragraph1{
+	margin-bottom:60px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+	.Paragraph2{
+	margin-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+   .Paragraph3{
+	text-align: left!important;
+	margin-bottom: 10px;
+}
+   .Paragraph4{
+	text-align: left!important;
+	padding:0px;
+	margin-top: 20px;
+	
+}
+
+   #sells {
+   	padding-top: 15px;
+   	padding-bottom: 15px;
+   }
+   #sells-heading {
+   	font-family: playfairdisplayregular;
+   	color: #c1b496;
+   }
+   #sells-heading > h1 {
+   	font-size: .6em;
+   }
+
+   #sells-desc > div > p{
+   	color: #2D2D2D;
+   	font-size: 14px;
+   	text-align: left;
+   }
+
+   #email {
+	width: 100%;
+	text-align: center;
+	background: #000;
+	color: #fff;
+	border: 1px solid #000;
+	box-shadow: none;
+	border-radius: 0;
+	font-family: playfairdisplayregular;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+	#subscribe{
+	margin-bottom: -70px;
+}
+
+	#submit{
+	margin-top: 30px;
+
+}
+
+   #mob-view > .col-md-4 {
+   	padding: 0;
+   	text-align: center;
+   	font-size: 14px;
+   	border-top: 1px solid #fff;
+   }
+}
+
+@media screen and (max-width: 778px) and (min-width: 768px){
+	#submit{
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#showcase-heading {
+		padding-top: 100px;
+		padding-bottom: 0px;
+	}
+	#showcase-heading > h1 {
+		font-family: playfairdisplayregular;
+		color: #c1b496;
+		font-size: 3em;
+	}
+
+	h1, #brands-heading{
+		font-size: 2em;
+	}
+
+	   .Paragraph1{
+	margin-bottom:60px;
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+	.Paragraph2{
+	margin-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+	.Paragraph3{
+	text-align: right;
+	padding:0px;
+	margin:0px;
+}
+   .Paragraph4{
+	text-align: left;
+	padding:0px;
+	margin:0px;
+	
+}
+	#showcase-desc {
+		padding-bottom: 40px;
+		font-size: 18px;
+		color: #2D2D2D;
+		width:100%;
+	}
+
+	#sells {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#sells-heading {
+		font-family: playfairdisplayregular;
+		color: #c1b496;
+	}
+	#sells-desc > div > p{
+		color: #2D2D2D;
+		font-size: 16px;
+		text-align: left;
+	}
+	#mob-view > .col-md-4 {
+		text-align: center;
+		padding-top: 8px;
+		border-top: 1px solid #fff;
+	}
+	#mob-view > .col-md-4:first-child {
+		border-top: none;
+	}
+	#email {
+		text-align: center;	
+	}
+	#submit{
+		margin-top: 30px;
+
+	}
+	
+}
+
+@media only screen and (max-width:767px) and (min-width: 480px){
+		.logo-col {
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+	h1, #brands-heading{
+		font-size: 2em;
+		text-align: center;
+	}
+		.Paragraph3{
+		text-align: left;
+		padding:0px;
+		margin:0px;
+}
+		#submit{
+		margin-top: 30px;
+
+}
+  	input, #email {
+		margin:0;
+		width: 100%;
+}
+
+
+}
+
+@media only screen and (max-width: 1000px) and (min-width: 770px)  {
+	h1, #brands-heading{
+		font-size: 2em;
+
+	}
+	.retail{
+		text-align: left;
+	}
+		   #email {
+	text-align: center;
+}
+
+
+}
+
+
+
+
+	
